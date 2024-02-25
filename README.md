@@ -8,6 +8,3 @@ Bin2Dec is a simple and user-friendly app designed to help you quickly and accur
 - Supports negative numbers: Convert both positive and negative binary numbers to their decimal counterparts.
 
 <!-- # Getting Started: -->
-
-<!-- # License:
-This project is licensed under the License Name: LICENSE. -->
