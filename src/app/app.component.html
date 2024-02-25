@@ -1,1 +1,22 @@
-<app-card></app-card>
+<app-card>
+  <div>
+    <label for="inputBin">input</label>
+    <input
+      type="text"
+      name="inputBin"
+      id="inputBin"
+      (change)="handleInputChange($event)"
+    />
+  </div>
+
+  <div>
+    <label for="outputDec">result</label>
+    <input
+      type="text"
+      name="outputDec"
+      id="outputDec"
+      [value]="result"
+      disabled
+    />
+  </div>
+</app-card>
