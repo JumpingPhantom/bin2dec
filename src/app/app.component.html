@@ -1,16 +1,15 @@
 <app-card>
-  <div>
-    <label for="inputBin">input</label>
+  <div class="input-group">
     <input
       type="text"
       name="inputBin"
       id="inputBin"
+      placeholder="Binary"
       (change)="handleInputChange($event)"
     />
   </div>
 
-  <div>
-    <label for="outputDec">result</label>
+  <div class="input-group">
     <input
       type="text"
       name="outputDec"
